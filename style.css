@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+   background: linear-gradient(45deg,rgb(185, 91, 125),rgb(10, 9, 84));
+   height: 100vh;
+}
+.container{
+   position: relative;
+   
+   text-align: center;
+   background: transparent;
+   color: aliceblue;
+   padding: 20px 20px;
+   justify-content:center;
+   display: grid;
+}
+h2{
+    font-size: 26px; 
+    padding-top: 23px;
+}
+textarea{
+    background: #403d84;
+    width: 50vh;
+    height:30vh;
+    padding: 20px 20px;
+    margin:40px 0;
+    border:2px ;
+    border-radius: 12px;
+    color: aliceblue;
+    font-size: 16px;
+}
+button{
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    align-items: center;
+}
